@@ -30,7 +30,11 @@ except ImportError:
 # --------------------------------------------------------------------------- #
 # 1. USER INTERFACE
 # --------------------------------------------------------------------------- #
-st.set_page_config(page_title="Route Optimizer with Time‑Windows", layout="wide")
+st.set_page_config(
+    page_title="Route Optimizer with Time‑Windows", 
+    layout="wide",
+    initial_sidebar_state="expanded"
+)
 st.title("📍 Route Optimizer with Time Windows (Google Maps + OR‑Tools)")
 
 # Sidebar – basic work‑day settings
